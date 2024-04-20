@@ -4,7 +4,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class Chapter1Test {
+public class BasicChapter1Test {
     @Test
     public void validatePlaceName() {
         given().
